@@ -20,9 +20,14 @@ public class Utilisateur {
 		this.id = id;
 		this.nom = nom;
 		this.prenom = prenom;
+	}	
+	
+	public Utilisateur(String nom, String prenom) {
+		super();
+		this.nom = nom;
+		this.prenom = prenom;
 	}
-	
-	
+
 	/*__________ getters/setters ___________*/
 
 	public int getId() {
