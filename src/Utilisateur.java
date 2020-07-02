@@ -9,6 +9,7 @@ public class Utilisateur {
 	private int id;
 	private String nom;
 	private String prenom;
+	private String telephone;
 	
 	/*__________ ctor ___________*/
 	public Utilisateur() {
